@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Top 5 Kamal Haasan Films</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 40px;
+      background-color: #f4f7fa;
+      font-family: 'Helvetica Neue', sans-serif;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      box-sizing: border-box;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+      color: #1a237e;
+      text-transform: uppercase;
+      text-align: center;
+    }
+
+    .page-description {
+      max-width: 750px;
+      text-align: center;
+      font-size: 16px;
+      margin-bottom: 40px;
+      color: #555;
+      font-style: italic;
+    }
+
+    .movie-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      max-width: 1200px;
+      width: 100%;
+    }
+
+    .movie-card {
+      background-color: #fff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .movie-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .movie-card img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 20px;
+    }
+
+    .movie-title {
+      font-size: 22px;
+      font-weight: bold;
+      color: #0d47a1;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+
+    .release-genre, .movie-info-grid {
+      font-size: 14px;
+      color: #444;
+      margin-bottom: 10px;
+    }
+
+    .release-genre ul {
+      list-style: square inside;
+      padding: 0;
+    }
+
+    .movie-info-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    .summary {
+      grid-column: span 2;
+      margin-top: 10px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Top 5 Kamal Haasan Films</h1>
+  <p class="page-description">Celebrating the master actor Kamal Haasan through five cinematic gems that reflect his range, boldness, and legacy in Indian cinema.</p>
+
+  <div class="movie-grid">
+
+    <div class="movie-card">
+      <img src="moondram_pirai.jpg" alt="Moondram Pirai" />
+      <div class="card-content">
+        <div class="movie-title">Moondram Pirai</div>
+        <div class="release-genre">
+          <div>Released: 1982</div>
+          <ul>
+            <li>Romantic Drama</li>
+            <li>Heartfelt performance with Sridevi</li>
+          </ul>
+        </div>
+        <div class="movie-info-grid">
+          <div><strong>Cast:</strong> Kamal Haasan, Sridevi</div>
+          <div><strong>Director:</strong> Balu Mahendra</div>
+          <div><strong>Producer:</strong> Rajam Balachander</div>
+          <div class="summary"><strong>Summary:</strong> A school teacher cares for a woman with amnesia, leading to a poignant tale of love, memory, and heartbreak.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="movie-card">
+      <img src="hey_ram.jpg" alt="Hey Ram" />
+      <div class="card-content">
+        <div class="movie-title">Hey Ram</div>
+        <div class="release-genre">
+          <div>Released: 2000</div>
+          <ul>
+            <li>Historical Drama</li>
+            <li>Alternate history, Gandhi assassination</li>
+          </ul>
+        </div>
+        <div class="movie-info-grid">
+          <div><strong>Cast:</strong> Kamal Haasan, Shah Rukh Khan</div>
+          <div><strong>Director:</strong> Kamal Haasan</div>
+          <div><strong>Producer:</strong> Raaj Kamal Films</div>
+          <div class="summary"><strong>Summary:</strong> A man’s journey through vengeance and realization set during the Partition and assassination of Gandhi.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="movie-card">
+      <img src="viswaroopam.jpg" alt="Viswaroopam" />
+      <div class="card-content">
+        <div class="movie-title">Viswaroopam</div>
+        <div class="release-genre">
+          <div>Released: 2013</div>
+          <ul>
+            <li>Action, Spy Thriller</li>
+            <li>Global terrorism plot</li>
+          </ul>
+        </div>
+        <div class="movie-info-grid">
+          <div><strong>Cast:</strong> Kamal Haasan, Rahul Bose</div>
+          <div><strong>Director:</strong> Kamal Haasan</div>
+          <div><strong>Producer:</strong> Raaj Kamal Films</div>
+          <div class="summary"><strong>Summary:</strong> A classical dancer’s true identity unravels in a story of espionage and international terror.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="movie-card">
+      <img src="thevar_magan.jpg" alt="Thevar Magan" />
+      <div class="card-content">
+        <div class="movie-title">Thevar Magan</div>
+        <div class="release-genre">
+          <div>Released: 1992</div>
+          <ul>
+            <li>Drama, Family</li>
+            <li>Rural legacy and leadership</li>
+          </ul>
+        </div>
+        <div class="movie-info-grid">
+          <div><strong>Cast:</strong> Kamal Haasan, Sivaji Ganesan</div>
+          <div><strong>Director:</strong> Bharathan</div>
+          <div><strong>Producer:</strong> Kamal Haasan</div>
+          <div class="summary"><strong>Summary:</strong> A London-educated man returns home and takes on his father’s responsibilities in a feudal village, facing tradition and violence.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="movie-card">
+      <img src="pushpak.jpg" alt="Pushpak" />
+      <div class="card-content">
+        <div class="movie-title">Pushpak</div>
+        <div class="release-genre">
+          <div>Released: 1987</div>
+          <ul>
+            <li>Silent, Black Comedy</li>
+            <li>Innovative storytelling</li>
+          </ul>
+        </div>
+        <div class="movie-info-grid">
+          <div><strong>Cast:</strong> Kamal Haasan, Amala</div>
+          <div><strong>Director:</strong> Singeetam Srinivasa Rao</div>
+          <div><strong>Producer:</strong> Shringar Nagaraj</div>
+          <div class="summary"><strong>Summary:</strong> A silent film masterpiece with no dialogues, chronicling the misadventures of an unemployed man who impersonates a rich person.</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
