@@ -1,0 +1,73 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #121212;
+  font-family: Arial, sans-serif;
+}
+
+/* Center the whole layout */
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Login box even bigger */
+.login-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 60px;
+}
+
+/* Bigger logo */
+.img {
+  width: 160px;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+/* Bigger heading */
+.login-box h2 {
+  color: white;
+  font-size: 36px;
+  margin-bottom: 35px;
+}
+
+/* Bigger inputs */
+.login-box input {
+  width: 360px;
+  padding: 18px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #2c2c2c;
+  color: white;
+}
+
+/* Bigger button */
+.login-box button {
+  width: 380px;
+  padding: 18px;
+  font-size: 18px;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-box button:hover {
+  background-color: #21a1f1;
+}
